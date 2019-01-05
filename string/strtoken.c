@@ -13,5 +13,6 @@ int main () {
     printf("lasts=%s\n",lasts);
     token=strtok_r(NULL,sep,&lasts);
    }
+
    return(0);
 }
